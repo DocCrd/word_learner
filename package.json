@@ -1,10 +1,11 @@
 {
-  "name": "vue_word_learner",
+  "name": "Word-learner",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "ins": "vue-cli-service inspect"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -17,6 +18,8 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "csv-loader": "^3.0.3",
+    "url-loader": "^4.1.1"
   }
 }
